@@ -14,7 +14,7 @@ interface Project {
   content: string
 }
 
-// This would typically come from a CMS or database
+
 const projects: { [key: string]: Project } = {
   "network-security-implementation": {
     slug: "network-security-implementation",
