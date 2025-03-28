@@ -1,7 +1,5 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import "./test.css";
-import "./styles.css";
 import Navigation from "@/components/Navigation";
 
 export const metadata: Metadata = {
@@ -24,15 +22,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth">
-      <head>
-        <style>{`
-          body { 
-            border-bottom: 8px solid green !important;
-            margin: 0;
-            padding: 0;
-          }
-        `}</style>
-      </head>
       <body className="font-sans bg-gray-50 text-gray-900 dark:bg-gray-900 dark:text-gray-100">
         <div className="test-static-css">
           This is a test of static CSS classes

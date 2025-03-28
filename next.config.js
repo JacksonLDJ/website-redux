@@ -7,9 +7,6 @@ const nextConfig = {
   },
   trailingSlash: true,
   basePath: '',
-  experimental: {
-    optimizeCss: true,
-  },
 };
 
 module.exports = nextConfig; 
