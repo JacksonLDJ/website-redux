@@ -48,9 +48,26 @@ const featuredProjects = [
   }
 ]
 
+// Inline CSS for testing
+const inlineStyles = {
+  testBorder: {
+    border: '5px solid purple',
+    padding: '20px',
+    margin: '20px',
+    backgroundColor: '#333',
+    color: 'white'
+  }
+};
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-gradient-to-b from-[#0a0a0a] to-[#1a1a1a]">
+      {/* Test element with inline styles */}
+      <div style={inlineStyles.testBorder}>
+        <h2>This is a test element with inline styles</h2>
+        <p>If you can see this with a purple border and dark background, inline styles are working</p>
+      </div>
+      
       {/* Hero Section */}
       <section className="h-screen flex flex-col justify-center px-8">
         <div className="max-w-7xl mx-auto w-full">

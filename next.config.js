@@ -6,6 +6,10 @@ const nextConfig = {
     unoptimized: true,
   },
   trailingSlash: true,
+  basePath: '',
+  experimental: {
+    optimizeCss: true,
+  },
 };
 
 module.exports = nextConfig; 

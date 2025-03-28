@@ -1,0 +1,22 @@
+/* Static CSS file that doesn't require processing */
+body {
+  border-top: 8px solid red;
+}
+
+h1 {
+  color: yellow !important;
+  text-shadow: 2px 2px 4px black;
+}
+
+a {
+  text-decoration: underline !important;
+}
+
+.test-static-css {
+  background-color: blue;
+  color: white;
+  padding: 20px;
+  margin: 20px;
+  font-size: 24px;
+  border-radius: 10px;
+} 
